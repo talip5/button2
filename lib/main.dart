@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Colors.amber,
           onPressed: _incrementCounter,
           tooltip: 'Increment',
-          child: Icon(Icons.add,size: 60.0,color: Colors.black,),
+          child: Icon(Icons.add,size: 60.0,color: Colors.blue,),
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
