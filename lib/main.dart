@@ -57,13 +57,13 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: Container(
-        width: 80,
-        height: 80,
+        width: 120,
+        height: 120,
         child: FloatingActionButton(
           backgroundColor: Colors.amber,
           onPressed: _incrementCounter,
           tooltip: 'Increment',
-          child: Icon(Icons.add,size: 60.0,color: Colors.blue,),
+          child: Icon(Icons.add,size: 40.0,color: Colors.blue,),
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
