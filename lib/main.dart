@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(),
     );
   }
-}--
+}
 
 class MyHomePage extends StatefulWidget {
 
@@ -57,8 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: Container(
-        width: 120,
-        height: 120,
+        width: 80,
+        height: 80,
         child: FloatingActionButton(
           backgroundColor: Colors.amber,
           onPressed: _incrementCounter,
